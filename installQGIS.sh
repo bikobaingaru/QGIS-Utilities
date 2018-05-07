@@ -16,7 +16,7 @@ mv qgis3-server-vagrant-master/ /kiwashGIS
 
 # Add QGIS repositories
 apt-key adv --keyserver keyserver.ubuntu.com --recv-key CAEB3DC3BDF7FB45
-echo 'deb http://qgis.org/debian bionic main' > /etc/apt/sources.list.d/debian-gis.list
+echo 'deb https://qgis.org/debian bionic main' > /etc/apt/sources.list.d/debian-gis.list
 apt-get update && apt-get -y upgrade
 
 # Available version of qgis-server >=3
