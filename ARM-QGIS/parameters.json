@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "extensions_CustomScriptForLinux_commandToExecute": {
+            "value": null
+        },
+        "extensions_Microsoft.Insights.VMDiagnosticsSettings_storageAccountName": {
+            "value": null
+        },
+        "extensions_Microsoft.Insights.VMDiagnosticsSettings_storageAccountKey": {
+            "value": null
+        },
+        "virtualMachines_kiwash_name": {
+            "value": null
+        },
+        "storageAccounts_kiwashgis_name": {
+            "value": null
+        },
+        "networkInterfaces_kiwash532_name": {
+            "value": null
+        },
+        "publicIPAddresses_kiwash_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_kiwashGIS_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_kiwash_nsg_name": {
+            "value": null
+        },
+        "subnets_default_name": {
+            "value": null
+        },
+        "securityRules_HTTPS_name": {
+            "value": null
+        },
+        "extensions_CustomScriptForLinux_name": {
+            "value": null
+        },
+        "securityRules_default_allow_ssh_name": {
+            "value": null
+        },
+        "extensions_Microsoft.Insights.VMDiagnosticsSettings_name": {
+            "value": null
+        },
+        "virtualMachines_kiwash_id": {
+            "value": null
+        }
+    }
+}
